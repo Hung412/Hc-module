@@ -11,7 +11,11 @@ Thiết kế Website với chuẩn SEO
     """,
 
     'description': """
-Vu Tuan Hung
+.. youtube:: 20w6SH3-_CY
+    :align: right
+    :width: 700
+    :height: 394
+
 Key Features
 ============
 
