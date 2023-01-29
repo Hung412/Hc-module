@@ -11,6 +11,7 @@ Thiết kế Website với chuẩn SEO
     """,
 
     'description': """
+Vu Tuan Hung
 Key Features
 ============
 
