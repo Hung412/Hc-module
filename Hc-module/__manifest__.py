@@ -12,7 +12,7 @@ Thiết kế Website với chuẩn SEO
 
     'description': """
 .. youtube:: 20w6SH3-_CY
-    :align: right
+    :align: center
     :width: 700
     :height: 394
 
@@ -30,6 +30,11 @@ Editions Supported
     """,
 
     'description_vi_VN': """
+.. youtube:: 20w6SH3-_CY
+    :align: center
+    :width: 700
+    :height: 394
+
 Tính năng chính
 ===============
 
