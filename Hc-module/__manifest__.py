@@ -1,9 +1,9 @@
 {
-    'name' : 'Product Return Reasons',
-    'name_vi_VN': 'Lý do trả hàng',
+    'name' : 'Hc Module',
+    'name_vi_VN': 'Mô đun Hc',
 
-    'summary': 'Base application for product return reasons management',
-    'summary_vi_VN': 'Ứng dụng cơ sở cho việc quản lý lý do trả hàng',
+    'summary': 'Test',
+    'summary_vi_VN': 'Test VN',
 
     'description':"""
 
