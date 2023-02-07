@@ -6,10 +6,16 @@
     'summary_vi_VN': 'Ứng dụng cơ sở cho việc quản lý lý do trả hàng',
 
     'description':"""
-.. youtube:: 20w6SH3-_CY
-    :align: center
-    :width: 700
-    :height: 394
+
+<div class="container text-center" t-if="odoo_module.desc_video_id">
+    <iframe class="embed-responsive-item"
+        t-attf-src="https://www.youtube.com/embed/2lixpAax7S4"
+        frameborder="0"
+        width="700"
+        height="394" 
+        allowfullscreen="true">
+    </iframe>
+</div>
 
 Summary
 =======
