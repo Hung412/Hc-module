@@ -1,58 +1,62 @@
 {
-    'name' : 'Hc Module',
-    'name_vi_VN': 'Mô đun Hc',
+    'name': "Books Management",
+    'name_vi_VN': "Quản Lý Sách",
 
-    'summary': 'Test',
-    'summary_vi_VN': 'Test VN',
+    'summary': """
+Design Website with SEO
+    """,
 
-    'description':"""
+    'summary_vi_VN': """
+Thiết kế Website với chuẩn SEO
+    """,
 
-Summary
-=======
+    'description': """
+Vu Tuan Hung
+Key Features
+============
 
-This technical module offers a new model for users to define return reason. A return reason consists of the following information:
-
-1. Name: The name of the Return Reason, for example: Bad quality, Customer changed mind, etc.
-2. Description: Description of the reason.
+#. Provide information for Schema
+#. Remove comment on robots.txt template
+#. Add rel options to website editor
 
 Editions Supported
 ==================
 1. Community Edition
-2. Enterprise Edition
 
     """,
+
     'description_vi_VN': """
-Tổng quan
-=========
+Tính năng chính
+===============
 
-Đây là module kỹ thuật tạo ra một model mới để định nghĩa các lý do trả hàng. Một lý do trả hàng bao gồm các thông tin sau:
+#. Cung cấp thông tin cho Schema
+#. Bỏ comment trên file mẫu robots.txt
+#. Bổ sung thiết lập thuộc tính rel trên trình soạn thảo trang web
 
-1. Tên: Tên của lý do trả hàng, ví dụ: Chất lượng kém, khách hàng đổi ý, v.v.
-2. Mô tả: Mô tả lý do.
-
-Ấn bản hỗ trợ
+Ấn bản được Hỗ trợ
 ==================
-1. Ấn bản cộng đồng
-2. Ấn bản doanh nghiệp
+1. Ấn bản Community
 
     """,
 
-    'version': '1.0.0',
-    'author' : 'T.V.T Marine Automation (aka TVTMA),Viindoo',
-    'website': 'https://viindoo.com/apps/app/15.0/to_product_return_reason',
+    'author': "Viindoo",
+    'website': "https://viindoo.com/apps/app/15.0/viin_website_seo",
     'live_test_url': "https://v15demo-int.viindoo.com",
     'live_test_url_vi_VN': "https://v15demo-vn.viindoo.com",
-    'demo_video_url': "https://youtu.be/yqTDJSTQFPc",
-    'support': 'apps.support@viindoo.com',
-    'sequence': 30,
-    'category': 'Sales',
-    'depends': ['product'],
+    'support': "apps.support@viindoo.com",
+    'category': 'Website',
+    'version': '0.1.0',
+    'depends': ['mail'],
+
+    # always loaded
     'data': [
-        'security/module_security.xml',
         'security/ir.model.access.csv',
-        'views/products_return_reason.xml',
+        'views/main_views.xml',
+        'wizard/edit_name_wizard.xml',
     ],
-    'images' : ['static/description/main_screenshot.png'],
+    'images': [
+        'static/description/books.png'
+    ],
     'installable': True,
     'application': False,
     'auto_install': False,
